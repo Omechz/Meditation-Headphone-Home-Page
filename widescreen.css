@@ -1,0 +1,44 @@
+/* Extra large devices (large laptops and desktops) */
+
+@media (min-width:769px) and (max-width:1200px) {
+    nav {
+        padding: 1rem 4.625rem;
+    }
+
+    nav .logo {
+        font-size: normal;
+    }
+
+    nav ul {
+        margin-left: auto;
+    }
+
+    nav ul li a {
+        margin: 1rem;
+        padding: 0.8125rem 1rem;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .text-section {
+        margin-top: 2rem;
+    }
+
+    .text-section>h1 {
+        font-size: 3.9rem;
+    }
+
+    .text-section>h4 {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .text-section>#btn button {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        /* width: 100%;
+        height: auto; */
+    }
+}
